@@ -1,0 +1,46 @@
+﻿.App {
+    font-family: "Rubik";
+    height: 100%;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(165deg, #674560, #AA5961, #DE6D5C, #FA8E61);
+    min-height: 100vh;
+    /* Используйте min-height вместо height */
+    margin: 0;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+h1 {
+    margin: 0;
+}
+
+.hero-block {
+    background: url('./blocks/Hero/assets/bg/heroBG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 20px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.blurred-text {
+    font-weight: 500;
+}
+
+.hero-heading {
+    color: #FFF1E8;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
+    font-size: 130px;
+    font-weight: 400;
+}
